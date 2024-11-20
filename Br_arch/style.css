@@ -1,0 +1,115 @@
+.first{
+    display: flex;
+    justify-content: space-between;
+     position: sticky;
+     top: 0;
+     background-color: white;
+}
+
+ul{
+    display:flex;
+     justify-content: flex-end;
+    font-size: 20px;
+    letter-spacing: 2px;
+    list-style: none;
+}
+.header{
+font-size: 30px;
+padding-top: 10px;
+text-indent: 20px;
+letter-spacing: 2px;
+}
+.container{
+position:relative;
+}
+.text{
+position: absolute;
+top: 60%;
+left: 45%;
+font-size: 30px;
+color: aliceblue;
+}
+span{
+width: 30vw;
+height: 30vh;
+background-color: black;
+padding: 15px;
+}
+.img1{
+position: relative;
+}
+.summer{
+position: absolute;
+top: 0;
+left: 0;
+background-color: black;
+color: white;
+padding: 1%;
+font-size: 15px;
+font-style:inherit;
+letter-spacing: 1px;
+}
+.one{
+/* display: flex; */
+display: grid;
+grid-template-columns: auto auto auto auto; 
+
+}
+p{
+font-style:initial;
+font-size: 120%;
+line-height: 1.5;
+}
+.john{
+width:25vw;
+height: 30;
+}
+.two{
+display: grid;
+grid-template-columns: auto auto auto auto;
+gap: 20px;
+}
+.contact{
+background-color: lightgrey;
+width:25vw;
+height: 5vh;
+
+}
+h5{
+font-size: 25px;
+color: lightslategray;
+}
+input{
+width: 100vw;
+height: 5vh;
+font-size: 20px;
+}
+a{
+text-decoration: none;
+color: black;
+}
+
+@media only screen and (width<600px){
+.one{
+   grid-template-columns: auto auto;
+}
+} 
+@media only screen and (width<400px){
+.one{
+   grid-template-columns: auto ;
+}
+} 
+@media only screen and (width>600px) and (width<900px){
+.two{
+   grid-template-columns: auto auto;
+}
+} 
+@media only screen and (width<600px){
+.two{
+   grid-template-columns: auto ;
+   margin-left: 20%;
+}
+.john{
+    width: 40vw;
+}
+} 
